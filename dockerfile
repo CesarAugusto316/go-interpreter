@@ -1,5 +1,5 @@
 # Start from the latest golang base image
-FROM golang:alpine
+FROM golang:alpine as development
 
 RUN apk add --no-cache git
 
