@@ -16,15 +16,21 @@
 	// "forwardPorts": [],
 
 	// Uncomment the next line to run commands after the container is created.
-	"postCreateCommand": "git config --global --add safe.directory /workspaces/go-interpreter && git config --global user.name cesaraugusto316 && git config --global user.email riveramirandac@gmail.com"
-	// [
-	// 	"git config --global --add safe.directory /workspaces/go-interpreter"
-	// 	// "git config --global user.name 'cesaraugusto316'",
-  //   // "git config --global user.email 'riveramirandac@gmail.com'"
-	// ]
+	"postCreateCommand": "git config --global --add safe.directory /workspaces/go-interpreter",
+		// "git config --global user.name 'cesaraugusto316'",
+		// "git config --global user.email 'riveramirandac@gmail.com'"
 
 	// Configure tool-specific properties.
-	// "customizations": {},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"golang.go",
+				"seatonjiang.gitmoji-vscode",
+				"eamodio.gitlens",
+				"tomoki1207.pdf"
+			]
+		}
+	}
 
 	// Uncomment to connect as an existing user other than the container default. More info: https://aka.ms/dev-containers-non-root.
 	// "remoteUser": "devcontainer"
