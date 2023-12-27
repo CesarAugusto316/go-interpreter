@@ -1,12 +1,14 @@
 # Start from the latest golang base image
 FROM golang:alpine
 
+RUN apk add --no-cache git
+
 # Add Maintainer Info
 LABEL maintainer="césar riveramirandac@gmail.com"
 
 # Set the Current Working Directory inside the container
 WORKDIR /app
-
+# RUN apk add --no-cache libc6-compat
 # Copy go mod and sum files
 # COPY go.mod go.sum ./
 
