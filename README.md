@@ -1,4 +1,4 @@
-# Interpreter written in GO.
+# spider interpreter written in GO.
 
 One Paragraph of project description goes here.
 

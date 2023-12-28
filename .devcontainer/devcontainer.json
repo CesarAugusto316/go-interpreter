@@ -27,7 +27,8 @@
 				"golang.go",
 				"seatonjiang.gitmoji-vscode",
 				"eamodio.gitlens",
-				"tomoki1207.pdf"
+				"tomoki1207.pdf",
+				"ms-azuretools.vscode-docker"
 			]
 		}
 	}
