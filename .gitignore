@@ -24,3 +24,5 @@
 
 # Go vendor directory
 /vendor/
+
+waiig_code_1.7/
