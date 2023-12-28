@@ -6,6 +6,8 @@ RUN apk add --no-cache git
 # Add Maintainer Info
 LABEL maintainer="césar riveramirandac@gmail.com"
 
+RUN chmod -R 777 /go
+
 # Set the Current Working Directory inside the container
 WORKDIR /app
 # RUN apk add --no-cache libc6-compat
